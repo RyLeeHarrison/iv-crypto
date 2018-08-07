@@ -1,0 +1,26 @@
+{
+  "name": "iv-crypto",
+  "version": "1.0.0",
+  "description": "More of an example, not reccomended for production use",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "cli": "node ./examples/cli",
+    "general": "node ./examples/general"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyLeeHarrison/iv-crypto.git"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "RyLee Harrison <ryleeharrison@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyLeeHarrison/iv-crypto/issues"
+  },
+  "homepage": "https://github.com/RyLeeHarrison/iv-crypto#readme"
+}
