@@ -1,7 +1,7 @@
 {
   "name": "iv-crypto",
   "version": "1.0.0",
-  "description": "More of an example, not reccomended for production use",
+  "description": "more of an example, not recommended for production use",
   "main": "index.js",
   "directories": {
     "example": "examples"
