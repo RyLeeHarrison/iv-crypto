@@ -1,11 +1,11 @@
 # iv-crypto
-More of an example, not reccomended for production use
+more of an example, not recommended for production use
 
 ## General
 ![code](/screenshot.png?raw=true)
 
 ```js
-const iv = new  IvCrypto({
+const iv = new IvCrypto({
     algorithm: "aes128",
     encoding: "base64",
     key: "1234567891012345"
@@ -20,10 +20,10 @@ console.log(`decrypted: ${iv.decrypt(enc)}`)
 
 ## Command line
 ![code](/screenshot-cli.png?raw=true)
-Supplying ``cli:  true`` when creating class instance will enable an interactive command line.
+Supplying ``cli: true`` when creating class instance will enable an interactive command line.
 
 ```js
-const iv = new  IvCrypto({
+const iv = new IvCrypto({
     cli: true,
     algorithm: "aes128",
     encoding: "base64",
